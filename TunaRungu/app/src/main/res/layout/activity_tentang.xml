@@ -1,0 +1,81 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.user.tunarungu.tentang">
+
+    <TextView
+        android:text="Aplikasi Media Pembelajaran untuk Tuna Rungu ini dibuat bertujuan untuk membantu belajar membaca dan berhitung untuk para tuna rungu."
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/textpjg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="Nama Anggota:"
+        android:textSize="20dp"
+        android:layout_below="@+id/textpjg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textnama"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="1. M. Aldy Ghifary"
+        android:textSize="15dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textaldy"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_below="@+id/textnama"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="2. Lia Mulyasari"
+        android:textSize="15dp"
+        android:id="@+id/textlia"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textaldy"
+        android:layout_alignStart="@+id/textaldy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="3. Ipah Hanifah"
+        android:textSize="15dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textipah"
+        android:layout_below="@+id/textlia"
+        android:layout_alignLeft="@+id/textlia"
+        android:layout_alignStart="@+id/textlia" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textipah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/logo"/>
+
+</RelativeLayout>

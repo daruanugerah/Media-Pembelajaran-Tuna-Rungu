@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.tunarungu" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".soal1"
+            android:label="@string/title_activity_soal1" >
+        </activity>
+        <activity
+            android:name=".soal2"
+            android:label="@string/title_activity_soal2" >
+        </activity>
+        <activity
+            android:name=".soal3"
+            android:label="@string/title_activity_soal3" >
+        </activity>
+        <activity
+            android:name=".soal4"
+            android:label="@string/title_activity_soal4" >
+        </activity>
+        <activity
+            android:name=".soal5"
+            android:label="@string/title_activity_soal5" >
+        </activity>
+        <activity
+            android:name=".soal6"
+            android:label="@string/title_activity_soal6" >
+        </activity>
+        <activity
+            android:name=".soal7"
+            android:label="@string/title_activity_soal7" >
+        </activity>
+        <activity
+            android:name=".soal8"
+            android:label="@string/title_activity_soal8" >
+        </activity>
+        <activity
+            android:name=".soal9"
+            android:label="@string/title_activity_soal9" >
+        </activity>
+        <activity
+            android:name=".soal10"
+            android:label="@string/title_activity_soal10" >
+        </activity>
+        <activity
+            android:name=".hitung1"
+            android:label="@string/title_activity_hitung1" >
+        </activity>
+        <activity
+            android:name=".hitung2"
+            android:label="@string/title_activity_hitung2" >
+        </activity>
+        <activity
+            android:name=".hitung3"
+            android:label="@string/title_activity_hitung3" >
+        </activity>
+        <activity
+            android:name=".hitung4"
+            android:label="@string/title_activity_hitung4" >
+        </activity>
+        <activity
+            android:name=".hitung5"
+            android:label="@string/title_activity_hitung5" >
+        </activity>
+        <activity
+            android:name=".tentang"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name=".perkalian"
+            android:label="@string/title_activity_perkalian" >
+        </activity>
+        <activity
+            android:name=".soal11"
+            android:label="@string/title_activity_soal11" >
+        </activity>
+        <activity
+            android:name=".soal12"
+            android:label="@string/title_activity_soal12" >
+        </activity>
+        <activity
+            android:name=".soal13"
+            android:label="@string/title_activity_soal13" >
+        </activity>
+        <activity
+            android:name=".soal14"
+            android:label="@string/title_activity_soal14" >
+        </activity>
+        <activity
+            android:name=".soal15"
+            android:label="@string/title_activity_soal15" >
+        </activity>
+        <activity
+            android:name=".hitung6"
+            android:label="@string/title_activity_hitung6" >
+        </activity>
+        <activity
+            android:name=".hitung7"
+            android:label="@string/title_activity_hitung7" >
+        </activity>
+        <activity
+            android:name=".hitung8"
+            android:label="@string/title_activity_hitung8" >
+        </activity>
+        <activity
+            android:name=".hitung9"
+            android:label="@string/title_activity_hitung9" >
+        </activity>
+        <activity
+            android:name=".hitung10"
+            android:label="@string/title_activity_hitung10" >
+        </activity>
+        <activity
+            android:name=".hitung11"
+            android:label="@string/title_activity_hitung11" >
+        </activity>
+        <activity
+            android:name=".hitung12"
+            android:label="@string/title_activity_hitung12" >
+        </activity>
+        <activity
+            android:name=".hitung13"
+            android:label="@string/title_activity_hitung13" >
+        </activity>
+        <activity
+            android:name=".hitung14"
+            android:label="@string/title_activity_hitung14" >
+        </activity>
+        <activity
+            android:name=".hitung15"
+            android:label="@string/title_activity_hitung15" >
+        </activity>
+    </application>
+
+</manifest>

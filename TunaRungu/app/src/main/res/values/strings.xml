@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Media Pembelajaran Tuna Rungu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Tentang</string>
+    <string name="title_activity_soal1">soal1</string>
+    <string name="title_activity_soal2">soal2</string>
+    <string name="title_activity_soal3">soal3</string>
+    <string name="title_activity_soal4">soal4</string>
+    <string name="title_activity_soal5">soal5</string>
+    <string name="title_activity_soal6">soal</string>
+    <string name="title_activity_soal7">soal7</string>
+    <string name="title_activity_soal8">soal8</string>
+    <string name="title_activity_soal9">soal9</string>
+    <string name="title_activity_soal10">soal10</string>
+    <string name="title_activity_hitung1">hitung1</string>
+    <string name="title_activity_hitung2">hitung2</string>
+    <string name="title_activity_hitung3">hitung3</string>
+    <string name="title_activity_hitung4">hitung4</string>
+    <string name="title_activity_hitung5">hitung5</string>
+    <string name="title_activity_tentang">tentang</string>
+    <string name="title_activity_perkalian">perkalian</string>
+    <string name="title_activity_soal11">soal11</string>
+    <string name="title_activity_soal12">soal12</string>
+    <string name="title_activity_soal13">soal13</string>
+    <string name="title_activity_soal14">soal14</string>
+    <string name="title_activity_soal15">soal15</string>
+    <string name="title_activity_hitung6">hitung6</string>
+    <string name="title_activity_hitung7">hitung7</string>
+    <string name="title_activity_hitung8">hitung8</string>
+    <string name="title_activity_hitung9">hitung9</string>
+    <string name="title_activity_hitung10">hitung10</string>
+    <string name="title_activity_hitung11">hitung11</string>
+    <string name="title_activity_hitung12">hitung12</string>
+    <string name="title_activity_hitung13">hitung13</string>
+    <string name="title_activity_hitung14">hitung14</string>
+    <string name="title_activity_hitung15">hitung15</string>
+</resources>

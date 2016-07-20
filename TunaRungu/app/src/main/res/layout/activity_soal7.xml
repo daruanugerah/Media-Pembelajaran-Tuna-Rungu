@@ -1,0 +1,101 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.tunarungu.soal7">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOMBA"
+        android:textSize="15dp"
+        android:drawableTop="@drawable/gbr7"
+        android:id="@+id/gbr1"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edt_soal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SILAKAN ISI DAHULU"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_toLeftOf="@+id/btn_lihat"
+        android:layout_toStartOf="@+id/btn_lihat" />
+
+    <Button
+        android:id="@+id/btn_lihat"
+        android:text="LIHAT"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_lihat"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignBottom="@+id/edt_soal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LANJUT"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_lihat"
+        android:layout_alignEnd="@+id/btn_lihat" />
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:textSize="10dp"
+        android:layout_alignTop="@+id/btn_lanjut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SUSUNLAH KATA-KATA DI BAWAH GAMBAR"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="MENJADI KALIMAT YANG BENAR"
+        android:textColor="#000000"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUMPUT -- DOMBA -- MAKAN"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/gbr1"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
